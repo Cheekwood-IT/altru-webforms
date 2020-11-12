@@ -1,0 +1,1520 @@
+/* Custom Fonts  */
+   
+@font-face {font-family: 'FilsonProBook';src: url('//cheekwood.org/fonts/32C748_5_0.eot');src: url('//cheekwood.org/fonts/32C748_5_0.eot?#iefix') format('embedded-opentype'),url('//cheekwood.org/fonts/32C748_5_0.woff2') format('woff2'),url('//cheekwood.org/fonts/32C748_5_0.woff') format('woff'),url('//cheekwood.org/fonts/32C748_5_0.ttf') format('truetype');}
+ 
+@font-face {font-family: 'FilsonProBold';src: url('//cheekwood.org/fonts/32C748_6_0.eot');src: url('//cheekwood.org/fonts/32C748_6_0.eot?#iefix') format('embedded-opentype'),url('//cheekwood.org/fonts/32C748_6_0.woff2') format('woff2'),url('//cheekwood.org/fonts/32C748_6_0.woff') format('woff'),url('//cheekwood.org/fonts/32C748_6_0.ttf') format('truetype');}
+ 
+@font-face {font-family: 'NewCaledoniaLTStd';src: url('//cheekwood.org/fonts/32C748_0_0.eot');src: url('//cheekwood.org/fonts/32C748_0_0.eot?#iefix') format('embedded-opentype'),url('//cheekwood.org/fonts/32C748_0_0.woff2') format('woff2'),url('//cheekwood.org/fonts/32C748_0_0.woff') format('woff'),url('//cheekwood.org/fonts/32C748_0_0.ttf') format('truetype');}
+ 
+@font-face {font-family: 'NewCaledoniaLTStd-Bold';src: url('//cheekwood.org/fonts/32C748_3_0.eot');src: url('//cheekwood.org/fonts/32C748_3_0.eot?#iefix') format('embedded-opentype'),url('//cheekwood.org/fonts/32C748_3_0.woff2') format('woff2'),url('//cheekwood.org/fonts/32C748_3_0.woff') format('woff'),url('//cheekwood.org/fonts/32C748_3_0.ttf') format('truetype');}
+ 
+ 
+/***** Default Layout Styles  *****/
+  
+  
+.MS_background_header{
+    background-color:#ffffff;
+    color:#030303;
+}
+  
+.MS_background_primaryContent{
+    background-color:#FFFFFF;
+}
+  
+.MS_background_subContent{
+    background-color:#99ccee;
+}
+  
+.MS_background_subContent_2{
+    background-color:#99ccee;
+}
+  
+.MS_background_footer{
+    background-color:#000000;
+    color: #cbcbcb;
+}
+  
+/***** Text styles  *****/
+  
+body {
+    background-color:#000000;
+    color:#000000;
+    font-family: "FilsonProBook",Helvetica,sans-serif;
+    font-size:16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: normal;
+    margin: 0;
+    font-family: "FilsonProBook", Helvetica, sans-serif;
+}
+h1 {
+color: #286142;
+    font-size: 30px;
+    margin: 0 auto 20px;
+}
+h2 {
+      color: #030303;
+    font-size: 26px;
+}
+h3 {
+      color: #030303;
+    font-size: 22px;
+   padding:50px 0 20px;
+}
+h4 {
+      color: #030303;
+    font-size: 20px;
+margin: 30px 0 10px;
+}
+h5 {
+      color: #030303;
+    font-size: 16px;
+}
+h6 {
+      color: #030303;
+    font-size: 14px;
+}
+  
+a, a:link, a:visited, a:active, a:focus, .MS_LoginButtonOuterContainer .MS_LoginButtonInnerContainer a {
+          color: #00b180;
+    text-decoration: underline;
+}
+a:hover, .ui-widget-content a:hover, .MS_LoginButtonOuterContainer .MS_LoginButtonInnerContainer > div a:hover {
+    color: #73c8af;
+    text-decoration: underline;
+}
+  
+.text-success {
+    color:#00B388;
+}
+.BBListingHeading{
+    color:#00B388;
+    font-size:36px;
+}
+.BBFieldCaption, .BBDivFieldCaption{
+    color:#286142;
+    font-size:18px;
+}
+.form-control {
+    font-size: 14px;
+border-radius: 0;
+    color: #000;
+}
+  
+/***** Button styles  *****/
+  
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary.active[disabled], .btn-primary.focus[disabled], .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background: #658d2d;
+    border: none;
+    padding: 6px 18px;
+border-radius:0;
+ transition: all 0.25s ease 0s;
+    position: relative;
+}
+.btn-primary, .ui-dialog .ui-dialog-buttonpane button, .BBFormSubmitButton, .payment-form #submitButton, .payment-form #cancelButton {
+    border: none;
+    color: #ffffff !Important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 18px 8px;
+    position: relative;
+    text-transform: uppercase;
+border-radius:0;
+ transition: all 0.25s ease 0s;
+   background: #00b189;
+border:solid 1px #00b189;
+text-decoration:none !important;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.btn-primary:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover, .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary, .btn-primary.focus, .btn-primary:focus, .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary.active[disabled], .btn-primary.focus[disabled], .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover, .ui-dialog .ui-dialog-buttonpane button:hover, .BBFormSubmitButton:hover, .payment-form #submitButton:hover, .payment-form #cancelButton:hover  {
+   background: #73c8af;
+    color: #ffffff !important;
+    text-decoration: none;
+border:solid 1px #73c8af;
+}
+.BBFormSubmitButton {
+margin-top:1px;
+}
+  
+/***** Membership styles  *****/
+  
+[id*="MembershipExpress"] .MembershipExpress_TermRadiolTerm, [id*="MembershipExpress"] .MembershipExpress_TermRadioAmount {
+    color: #00B388;
+    display: block;
+    font-size: 20px;
+}
+[id*="MembershipExpress"] .MembershipExpress_SelectedTermLabel, [id*="MembershipExpress"] .MembershipExpress_SelectedTypeLabel {
+    background: #286142;
+    border-color: #286142;
+padding: 15px 55px;
+}
+ 
+[id*='MembershipExpress'] .MembershipExpress_LevelDescriptionText {
+    display: block;
+    text-align: center;
+}
+[id*='MembershipExpress'] .MembershipExpress_LevelDescriptionText
+{
+    display:block;
+    text-align:center;
+ 
+}
+  
+/***** Sign In styles  *****/
+  
+.ui-widget-header {
+    background: #00b189 !important;
+}
+.ui-dialog-titlebar-close {
+    background: rgba(0, 0, 0, 0) url(“view.image?id=421”) repeat scroll center center !important;
+}
+.ui-dialog .ui-dialog-buttonpane, .ui-widget-content, .ui-widget-header {
+border:none !important;
+}
+.ui-widget-content a {
+         color: #658d2d;
+}
+.ui-widget-content a:hover {
+color: #658d2d;
+    text-decoration: underline;
+}
+  
+/***** Custom Layout Styles  *****/
+  
+.container-fluid {
+padding:0;
+}
+.MS_pageWrapper {
+margin:0;
+}
+.logo img {
+    max-width: 170px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+}
+.MS_LoginButtonOuterContainer .MS_LoginButtonInnerContainer > div a {
+background: #00b189 none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    line-height:21px;
+    padding: 6px 12px 4px !important;
+    transition: background 0.5s ease 0s;
+    text-transform:uppercase;
+    font-weight:normal;
+    text-decoration:none;
+}
+.MS_LoginButtonOuterContainer .MS_LoginButtonInnerContainer > div a:hover {
+text-decoration:none;
+background: #73c8af;
+color:#ffffff;
+}
+.MS_LoginButtonOuterContainer .MS_LoginButtonInnerContainer {
+    padding: 10px 15px 0 0;
+}
+#banner {
+width:100%;
+clear:both;
+}
+#banner img {
+width:100%;
+height:auto;
+}
+#nav {
+text-align:right;
+margin-top: 30px;
+white-space: nowrap;
+    display:inline-block;
+}
+#nav a {
+color: #030303;
+#    display: block;
+    display:inline-block;
+    letter-spacing: 1px;
+    transition: color 0.3s ease 0s;
+    font-size:12px;
+    text-transform:uppercase;
+text-decoration:none;
+ white-space: nowrap;
+text-align:right;
+}
+#nav a:hover {
+color: #00b189;
+text-decoration:none;
+}
+.site-footer h3 {
+    color: #00b189;
+    padding:0;
+    margin-bottom: 12px;
+font-size: 30px;
+    line-height: 36px;
+font-family: "FilsonProBook", Helvetica, sans-serif;
+    font-weight: normal;
+text-transform:none;
+}
+.site-footer p {
+font-size: 14px;
+    color: #cbcbcb;
+line-height: 24px;
+}
+.site-footer br.mobile-break {
+    display: none;
+}
+.site-footer a {
+    color: #00b189;
+text-decoration:none;
+}
+.site-footer a:hover {
+    color: #73c8af;
+    text-decoration:none;
+}
+.site-footer ul.nav {
+    float: left;
+    font-size: 0;
+}
+.site-footer ul.nav li:first-child {
+    border-left: medium none;
+    margin-left: 0;
+}
+.site-footer ul.nav li {
+    border-left: 1px solid #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 12px;
+    margin: 0;
+}
+.site-footer ul.nav li:first-child a {
+    padding-left: 0;
+}
+.site-footer ul.nav li a {
+    color: #00b189;
+    display: inline-block;
+    padding: 0 12px;
+text-decoration:none;
+}
+.site-footer ul.nav li a:hover {
+    color: #73c8af;
+    background:transparent;
+}
+.site-footer ul.social {
+    float: right
+    text-align: right;
+}
+.site-footer ul.social li {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 10px;
+}
+.site-footer ul.social li a {
+    color: #fff;
+    font-size: 24px;
+    display:block;
+}
+.site-footer .col-sm-7, .site-footer .col-sm-5 {
+padding:0;
+}
+  
+/********   Programming Events ********/
+ 
+.Programming_Event_DateTime {
+    padding-bottom: 20px;
+}
+ 
+.Programming_Event_Description {
+    padding-bottom: 16px;
+}
+ 
+.Programming_Event_DateContainer {
+    display: block;
+    padding: 15px 0px;
+}
+ 
+.Programming_Event_TimeContainer {
+    padding: 15px 0px;
+}
+ 
+.TicketDateTimeInnerContainer {
+    padding: 20 5 15;
+    border: 1px solid #e6e7e8;
+}
+ 
+.Programming_Event_AlternateDatesLink {
+    display: inline-block;
+    padding-top: 5px;
+}
+ 
+#anchorOtherDates {
+    text-decoration: underline;
+    font-size: 18px;
+}
+  
+/********   Membership Express ********/
+ 
+.MembershipExpress_Selectors
+{
+}
+ 
+.MembershipExpress_AddtoCartContainer
+{
+}
+ 
+.MembershipExpress_MembershipTitle
+{
+}
+.MembershipExpress_MembershipSelectTitle
+{
+ 
+}
+ 
+ 
+.MembershipExpress_MembershipSelectTitle
+{
+}
+ 
+.MembershipExpress_Mem.MembershipExpress_MembershipSelectTitle
+{
+ 
+}
+.MembershipExpress_MembershipProgramDescription
+{
+ 
+}
+.MembershipExpress_TermHelp
+{
+ 
+}
+.MembershipExpress_MembersHelp
+{
+ 
+}
+.MembershipExpress_LevelContainer
+{
+ 
+}
+.MembershipExpress_LevelSelectorContainer
+{
+ 
+}
+.MembershipExpress_LevelHeader
+{
+    Font-size: 21px;
+ 
+}
+.MembershipExpress_LevelDescriptionText
+{
+    display:block;
+    text-align:center;
+ 
+}
+.MembershipExpress_TermContainer span input[type="radio"]
+{
+ 
+}
+.MembershipExpress_TypeContainer span input[type="radio"]
+{
+ 
+}
+.MembershipExpress_TermName
+{
+    width:75% !important;
+    padding:15px 0 !important;
+ 
+}
+.MembershipExpress_TermName:hover
+{
+ 
+}
+.MembershipExpress_TermRadioLevel
+{ display: none;
+ 
+}
+.MembershipExpress_TermRadiolTerm
+{
+    color:#00b189;
+    display:block;
+    font-size:20px;
+ 
+}
+.MembershipExpress_TermRadioAmount
+{
+ 
+}
+.MembershipExpress_TypeContainer
+{
+ 
+}
+.MembershipExpress_MembershipTypeHelp
+{
+ 
+}
+.MembershipExpress_TypeName
+{
+ 
+}
+.MembershipExpress_SelectedTermLabel
+{
+ 
+}
+.MembershipExpress_SelectedTypeLabel
+{
+ 
+}
+.MembershipExpress_TypeName:hover
+{
+ 
+}
+.MembershipExpress_MemberControlContainer
+{
+ 
+}
+.MembershipExpress_MemberControl
+{
+ 
+}
+.MembershipExpress_MemberControlLabel
+{
+ 
+}
+.MembershipExpress_AddToCartButtonContainer
+{
+ 
+}
+.MembershipExpress_Total
+{
+ 
+}
+.MembershipExpress_PrimaryGiftMemberColumn
+{
+ 
+}
+.MembershipExpress_PrimaryGiftMember
+{
+ 
+}
+.MembershipExpress_GiftInformationContainer
+{
+ 
+}
+.MembershipExpress_GiftContainer
+{
+ 
+}
+.MembershipExpress_GiftOption
+{
+ 
+}
+.MembershipExpress_SubHeader
+{
+ 
+}
+.MembershipExpress_PrimaryMemberHeader
+{
+ 
+}
+.MembershipExpress_MemberHeader
+{
+ 
+}
+.MembershipExpress_MemberInput
+{
+ 
+}
+.MembershipExpress_MemberErrorMessage
+{
+ 
+}
+.MembershipExpress_MemberTextbox
+{
+ 
+}
+.MembershipExpress_MemberAddress
+{
+ 
+}
+n:hover, .payment-form #cancelButton:hover
+ 
+.MembershipExpress_TermName
+{
+    width:100% !important;
+    padding:15px 0 !important;
+ 
+}bershipProgramDescription
+{
+}
+ 
+.MembershipExpress_TermHelp
+{
+}
+ 
+.MembershipExpress_MembersHelp
+{
+}
+ 
+.MembershipExpress_LevelContainer
+{
+}
+ 
+.MembershipExpress_LevelSelectorContainer
+{
+}
+ 
+ 
+.MembershipExpress_LevelDescriptionText
+{   display: block
+    text-align: center;
+}
+ 
+.MembershipExpress_TermContainer span input[type="radio"]
+{
+}
+ 
+.MembershipExpress_TypeContainer span input[type="radio"]
+{
+}
+ 
+.MembershipExpress_TermName
+{
+    width:75% !important;
+    padding: 15px 0 !important  ;
+ 
+}
+ 
+.MembershipExpress_TermName:hover
+{
+}
+ 
+.MembershipExpress_TermRadioLevel
+{
+}
+ 
+.MembershipExpress_TermRadiolTerm
+{
+    color: #00b189;
+    display: block;
+    font-size: 20px;
+}
+ 
+.MembershipExpress_TermRadioAmount
+{
+}
+ 
+.MembershipExpress_TypeContainer
+{
+}
+ 
+.MembershipExpress_MembershipTypeHelp
+{
+}
+ 
+.MembershipExpress_TypeName
+{
+}
+ 
+.MembershipExpress_SelectedTermLabel
+{
+}
+ 
+.MembershipExpress_SelectedTypeLabel
+{
+}
+ 
+.MembershipExpress_TypeName:hover
+{
+}
+ 
+.MembershipExpress_MemberControlContainer
+{
+}
+ 
+.MembershipExpress_MemberControl
+{
+}
+ 
+.MembershipExpress_MemberControlLabel
+{
+}
+ 
+.MembershipExpress_AddToCartButtonContainer
+{
+}
+ 
+.MembershipExpress_Total
+{
+}
+ 
+.MembershipExpress_PrimaryGiftMemberColumn
+{
+}
+ 
+.MembershipExpress_PrimaryGiftMember
+{
+}
+ 
+.MembershipExpress_GiftInformationContainer
+{
+}
+ 
+.MembershipExpress_GiftContainer
+{
+}
+ 
+.MembershipExpress_GiftOption
+{
+}
+ 
+.MembershipExpress_SubHeader
+{
+}
+ 
+.MembershipExpress_PrimaryMemberHeader
+{
+}
+ 
+.MembershipExpress_MemberHeader
+{
+}
+ 
+.MembershipExpress_MemberInput
+{
+}
+ 
+.MembershipExpress_MemberErrorMessage
+{
+}
+ 
+.MembershipExpress_MemberTextbox
+{
+}
+ 
+.MembershipExpress_MemberAddress
+{
+}
+ 
+.MembershipExpress_Selectors
+{
+ 
+}
+.MembershipExpress_AddtoCartContainer
+{
+ 
+}
+.MembershipExpress_MembershipTitle
+{
+ 
+}
+ 
+/***** End Membership Express styles *****/
+ 
+/***** Media Queries  *****/
+  
+@media (max-width: 991px) {
+.site-footer br.mobile-break {
+    display: block;
+}
+ 
+.col-xs-12 {
+padding-bottom: 10px;
+}
+}
+  
+@media (max-width: 767px) {
+.logo img {
+    display: block;
+    margin: 20px auto 0;
+    max-width: 115px;
+}
+#nav {
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+.PaymentPart_CartSummaryFieldContainer {
+padding:0;
+}
+.PaymentPart_CartDiscountApplyButton{
+    margin: 0 5px;
+    padding: 8px 10px;
+  
+}
+.MS_LoginButtonOuterContainer {
+    text-align: center;
+}
+.site-footer ul.nav {
+    float: none;
+    text-align: center;
+}
+.site-footer ul.nav li a {
+    font-size: 10px;
+    text-transform:capitalize;
+padding: 0 6px;
+}
+.site-footer ul.social {
+    float: none;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+ 
+n:hover, .payment-form #cancelButton:hover
+ 
+.MembershipExpress_TermName {
+    width: 100% !important;
+    padding: 15px 0 !important  ;
+}
+}
+ 
+/* Social Good Software CSS */
+body {
+  overflow-x: hidden;
+  background-color: #031C0D;
+}
+ 
+form {
+  margin-bottom: 0;
+}
+ 
+.MS_background_primaryContent {
+  padding-bottom: 30px;
+}
+ 
+.btn-primary, .ui-dialog .ui-dialog-buttonpane button, .BBFormSubmitButton, .payment-form #submitButton, .payment-form #cancelButton {
+  border: 1px solid #707070;
+}
+ 
+#banner {
+  display: none;
+}
+ 
+.ui-widget-overlay.ui-front {
+  display: block !important;
+  background: #000 !important;
+  opacity: .8 !important;
+}
+ 
+.new-login-description {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+ 
+.ui-dialog {
+  width: inherit !important;
+  max-width: 450px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ 
+@media screen and (min-width: 480px) {
+  .ui-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+ 
+.ui-dialog .ui-dialog-titlebar {
+  margin: -.2em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: .8em .3em .3em;
+}
+ 
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+  font-family: "FilsonProBook", Helvetica, sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+ 
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/close.svg") !important;
+  background-size: cover !important;
+  right: 1em;
+  top: 1.8em;
+  height: 19px;
+  width: 19px;
+}
+ 
+.ui-dialog .ui-dialog-buttonpane button {
+  padding: .5em 2em;
+  text-transform: inherit;
+  font-size: 2rem;
+}
+ 
+.newLogin.ui-dialog {
+  width: inherit !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 700px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ 
+@media screen and (min-width: 830px) {
+  .newLogin.ui-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+ 
+.newLogin.ui-dialog .ui-dialog-titlebar {
+  padding: 0;
+  height: 0;
+  min-height: 0;
+  margin: 0;
+}
+ 
+.newLogin.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+  display: none;
+}
+ 
+.newLogin.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/cross.svg") !important;
+  z-index: 1;
+  top: 1em;
+  right: .5em;
+}
+ 
+.newLogin.ui-dialog #popuplogin {
+  padding: 0;
+  color: #4F4F4F;
+  margin: -.2em;
+  font-size: 1.3rem;
+  font-family: "FilsonProBook", Helvetica, sans-serif;
+}
+ 
+.newLogin.ui-dialog #popuplogin > .row {
+  margin: 0;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginregister {
+  background: #F0F0F0;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginregister a {
+  font-size: 1.6rem;
+}
+ 
+.newLogin.ui-dialog #popuplogin #join-button {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em 1.2em;
+  text-transform: inherit;
+  font-size: 1.9rem;
+  min-width: 220px;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer {
+  padding: 1em;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer h3 {
+  font-size: 3rem;
+  color: #4F4F4F;
+  padding: 1rem;
+  text-align: center;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer p {
+  text-align: center;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer .form-horizontal .control-label {
+  text-align: left;
+  font-weight: normal;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer .form-horizontal input.LoginFormTextbox {
+  height: 45px;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer a.LoginLink {
+  float: right;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer .checkbox {
+  padding-left: 15px;
+  padding-top: 0;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer .checkbox input {
+  margin-left: -15px;
+  margin-top: 2px;
+}
+ 
+.newLogin.ui-dialog #popuplogin #popuploginformcontainer #popupsubmitform button {
+  margin: 2em auto 0;
+  display: block;
+  float: none;
+}
+ 
+.MS_background_footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: #031C0D;
+}
+ 
+.MS_background_footer .footer-left ul.nav {
+  display: table;
+  float: none;
+  margin-top: 8rem;
+  z-index: 2;
+  position: relative;
+}
+ 
+.MS_background_footer .col-sm-7.col-xs-12 {
+  width: 100%;
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 {
+  width: 100%;
+  margin-top: 10px;
+}
+ 
+@media (min-width: 768px) {
+  .MS_background_footer .col-sm-5.col-xs-12 {
+    margin-top: -18px;
+  }
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social {
+  float: right;
+  text-align: right;
+}
+ 
+@media (min-width: 768px) {
+  .MS_background_footer .col-sm-5.col-xs-12 ul.social {
+    margin-right: 25px;
+  }
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social li a span {
+  display: inline-block;
+  height: 22;
+  width: 22;
+  background-size: contain;
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social li a span.fa-snapchat-ghost {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/snapchat.png");
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social li a span.fa-twitter {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/twitter.png");
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social li a span.fa-facebook {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/facebook.png");
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social li a span.fa-instagram {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/instagram.png");
+}
+ 
+.MS_background_footer .footer-sponsors-container {
+  border-top: 1px solid #222;
+  margin-top: 15px;
+}
+ 
+.MS_background_footer .footer-sponsors-container ul.footer-sponsors {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+  padding: 15px 0 0;
+}
+ 
+.MS_background_footer .footer-sponsors-container ul.footer-sponsors li {
+  display: inline-block;
+  margin: 15px;
+}
+ 
+.MS_background_footer .footer-sponsors-container ul.footer-sponsors li span {
+  display: block;
+  height: 30px;
+  background-size: cover;
+}
+ 
+.MS_background_footer .footer-sponsors-container ul.footer-sponsors li span.tn-arts {
+  width: 63.5px;
+  background-image: url("https://cheekwood.org/wp-content/uploads/2016/10/TN-Arts.png");
+}
+ 
+.MS_background_footer .footer-sponsors-container ul.footer-sponsors li span.metro-arts {
+  width: 111.5px;
+  background-image: url("https://cheekwood.org/wp-content/uploads/2018/01/Metro-Arts.png");
+}
+ 
+.MS_background_footer p.copyright {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #918f8f;
+  margin-bottom: 0;
+}
+ 
+.MS_background_header {
+  padding-top: 15px;
+}
+ 
+.MS_background_header > .container {
+  display: none;
+}
+ 
+@media (min-width: 768px) {
+  .MS_background_header > .container {
+    display: block;
+  }
+}
+ 
+.MS_background_header #nav {
+  margin-top: 15px;
+  width: 100%;
+}
+ 
+.MS_background_header #nav a {
+  display: inline-block;
+  margin-left: 15px;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-section {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e7e7e7;
+}
+ 
+@media (min-width: 768px) {
+  .MS_background_header #mobile-nav {
+    display: none;
+  }
+}
+ 
+.MS_background_header #mobile-nav .row {
+  margin: 0;
+}
+ 
+.MS_background_header #mobile-nav button.menu-mobile-button {
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  float: right;
+  background-color: transparent;
+  border: 0;
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/menu.svg");
+  background-size: cover;
+}
+ 
+.MS_background_header #mobile-nav button.menu-mobile-open {
+  background-image: url("https://s3-us-west-1.amazonaws.com/www.socialgoodsoftware.com/cold-storage/cheekwood/greenClose.svg");
+}
+ 
+.MS_background_header #mobile-nav .mobile-logo {
+  display: inline-block;
+}
+ 
+.MS_background_header #mobile-nav .mobile-logo img {
+  width: auto;
+  height: 70px;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-items {
+  background-color: #286142;
+  padding: 2em 1em;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  display: none;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-links {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-links a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #00B388;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-links a:last-child {
+  border-bottom: 1px solid #00B388;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-buttons {
+  display: table;
+  width: 100%;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-buttons > div {
+  display: table-cell;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-buttons > div:first-child {
+  padding-right: 10px;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-buttons > div:last-child {
+  padding-left: 10px;
+}
+ 
+.MS_background_header #mobile-nav #mobile-menu-buttons > div a {
+  width: 100%;
+  text-align: center;
+  text-transform: initial;
+  font-size: 2rem;
+  cursor: pointer;
+}
+ 
+.col-sm-7.col-xs-12 img[alt="Cheekwood"], .mobile-logo img {
+  cursor: pointer;
+}
+ 
+div.alert.alert-danger {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ 
+.form-input, table.BBFormTable.LoginFormTable tr td input[type="text"], table.BBFormTable.LoginFormTable tr td input[type="password"] {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  font-size: 14px;
+  border-radius: 0;
+  color: #000;
+}
+ 
+.MS_contentWrapper_inner table {
+  width: 100%;
+}
+ 
+table.BBFormTable.LoginFormTable {
+  margin-top: 2em;
+}
+ 
+table.BBFormTable.LoginFormTable tr {
+  display: block;
+}
+ 
+table.BBFormTable.LoginFormTable tr td {
+  display: block;
+}
+ 
+table.BBFormTable.LoginFormTable tr td input[type="text"], table.BBFormTable.LoginFormTable tr td input[type="password"] {
+  width: 100%;
+}
+ 
+table.BBFormTable.LoginFormTable tr td input[type="button"] {
+  margin-left: auto;
+  display: block;
+  padding-top: .4em;
+  padding-bottom: .2em;
+  border: 0;
+}
+ 
+@media (min-width: 768px) {
+  table.BBFormTable.LoginFormTable tr {
+    display: table;
+  }
+  table.BBFormTable.LoginFormTable tr td {
+    display: table-cell;
+  }
+  table.BBFormTable.LoginFormTable tr td input[type="text"], table.BBFormTable.LoginFormTable tr td input[type="password"] {
+    min-width: 320px;
+  }
+  table.BBFormTable.LoginFormTable tr td input[type="button"] {
+    margin-top: 2em;
+    padding-top: .8em;
+    padding-bottom: .5em;
+  }
+}
+ 
+table.BBFormTable.LoginFormTable td.BBFieldCaption.LoginFieldCaption {
+  padding-right: 2em;
+}
+ 
+.PaymentPart_CartItemDetails {
+  display: inline-block;
+  padding-top: 10px;
+}
+ 
+.PaymentPart_CartItemDetails .cart-discount {
+  display: table;
+  background: #00B388;
+  color: white;
+  padding: 1px 4px;
+}
+ 
+div[id$="htmlDisplayProgramDescription"] {
+  margin-bottom: 2em;
+}
+ 
+div[id$="UserModalSignIn_UserModalPartDialog1_UserModalPartDialogBody_DivSignInContainer"] .control-label {
+  font-weight: normal;
+}
+ 
+div[id$="UserModalSignIn_UserModalPartDialog1_UserModalPartDialogBody_DivSignInContainer"] .LoginLink {
+  display: block;
+  text-align: right;
+  font-size: 1.1rem;
+}
+ 
+div[id$="UserModalSignIn_UserModalPartDialog1_UserModalPartDialogBody_DivSignInContainer"] .checkbox label {
+  font-size: 1.3rem;
+}
+ 
+@media screen and (min-width: 768px) {
+  .newLogin.ui-dialog #popuplogin > .row {
+    display: table;
+  }
+  .newLogin.ui-dialog #popuplogin > .row > [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+ 
+table.BBFormTable.LoginFormTable [id$="tdForgotPWDUserNameTitle"] {
+  display: none;
+}
+ 
+div[id$="PaymentPartFormContainer"] #divDeliveryMethod .col-xs-9.col-sm-7 {
+  width: 100%;
+  padding: 0 15px;
+}
+ 
+@media (min-width: 768px) {
+  div[id$="PaymentPartFormContainer"] #divDeliveryMethod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 60px;
+  }
+  div[id$="PaymentPartFormContainer"] #divDeliveryMethod .col-xs-12.col-sm-3 {
+    width: 100%;
+    max-width: 270px;
+  }
+  div[id$="PaymentPartFormContainer"] #divDeliveryMethod .col-xs-9.col-sm-7 {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  div[id$="PaymentPartFormContainer"] #divDeliveryMethod:after {
+    content: '';
+    width: 100%;
+    max-width: 134px;
+    height: 100%;
+    display: block;
+  }
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] {
+  margin-top: -25px;
+  display: table;
+  width: 100%;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a {
+  display: table-cell;
+  width: 49%;
+  margin: 0;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a[id$="CartGrid_ButtonContinueShopping"] {
+  text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: .7em;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 0;
+  white-space: normal;
+}
+ 
+@media (min-width: 768px) {
+  div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a[id$="CartGrid_ButtonContinueShopping"] {
+    padding-top: .8em;
+    padding-bottom: .5em;
+    font-size: 16px;
+  }
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > span {
+  float: right;
+  display: table-cell;
+  width: 2%;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] {
+  margin-top: -20px;
+  margin-bottom: -50px;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] .PaymentPart_CartSummaryFieldContainer {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] .PaymentPart_CartSummaryFieldContainer input.PaymentPart_CartDiscountApplyButton {
+  margin: 15px 0 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: auto;
+  display: block;
+}
+ 
+div[id$="PaymentPartFormContainer"] .PaymentPart_PesonalInfoCheckbox {
+  display: table;
+  width: 100%;
+}
+ 
+div[id$="PaymentPartFormContainer"] .PaymentPart_PesonalInfoCheckbox label, div[id$="PaymentPartFormContainer"] .PaymentPart_PesonalInfoCheckbox input {
+  display: inline;
+}
+ 
+div[id$="PaymentPartFormContainer"] .PaymentPart_PesonalInfoCheckbox label {
+  padding-left: 5px;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="divUserSignUp"] .BBListingHeading.PaymentPart_SectionHeading {
+  display: none;
+}
+ 
+div[id$="PaymentPartFormContainer"] input[id$="ButtonCheckout"] {
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+ 
+@media (min-width: 768px) {
+  div[id$="PaymentPartFormContainer"] {
+    margin-top: 0;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] {
+    display: block;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a {
+    display: block;
+    width: unset;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a[id$="CartGrid_lbRemoveAll"] {
+    margin-left: 15px;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > span {
+    display: none;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] {
+    margin-top: 0px;
+    margin-bottom: -30px;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] #dlDiscountCodeEntry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] #dlDiscountCodeEntry div.PaymentPart_DiscountCodeContainer.col-xs-12.col-sm-3 {
+    width: 100%;
+    max-width: 270px;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] #dlDiscountCodeEntry div.PaymentPart_CartSummaryFieldContainer.col-xs-3.col-sm-2 {
+    width: auto;
+    max-width: 135px;
+    padding-left: 0;
+  }
+  div[id$="PaymentPartFormContainer"] div[id$="divDiscountCodeEntry"] #dlDiscountCodeEntry div.PaymentPart_CartSummaryFieldContainer.col-xs-3.col-sm-2 input {
+    margin: 0;
+    padding: .2em 2em;
+  }
+}
+ 
+div[id*="CartGrid_cartPanel"] {
+  padding-top: 0;
+}
+ 
+div[id*="ctl01_CartGrid_CartContainer"] {
+  padding-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+ 
+@media (min-width: 768px) {
+  div[id*="ctl01_CartGrid_CartContainer"] {
+    padding-top: 0;
+  }
+}
+ 
+@media screen and (min-width: 768px) {
+  #popuploginformcontainer, #popuploginregister {
+    display: table-cell !important;
+    float: none !important;
+  }
+}
+ 
+.btn-primary, .ui-dialog .ui-dialog-buttonpane button, .BBFormSubmitButton, .payment-form #submitButton, .payment-form #cancelButton {
+  white-space: normal;
+}
+ 
+.modal-Dialog div.alert.alert-danger {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+ 
+.MS_background_footer .col-sm-5.col-xs-12 ul.social {
+  float: right;
+  text-align: right;
+}
+ 
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a {
+  border-color: #ccc;
+}
+ 
+.MS_background_header {
+  padding: 0px;
+}
+ 
+.MS_background_header > .container {
+  padding: 20px 10px;
+}
+ 
+@media screen and (min-width: 768px) {
+  #popuploginformcontainer, #popuploginregister {
+    display: table-cell !important;
+    float: none !important;
+  }
+}
+ 
+@media screen and (max-width: 995px) {
+  .newLogin {
+    top: 35px !important;
+  }
+  .site-footer ul.social {
+    width: 100%;
+    text-align: center !important;
+  }
+}
